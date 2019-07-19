@@ -1,0 +1,24 @@
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  button {
+    padding: 10px;
+    border: none;
+    box-shadow: 0 1px 1px 0 rgba(60, 64, 67, .08), 0 1px 3px 1px rgba(60, 64, 67, .16);
+    border-radius: 3px;
+    text-transform: uppercase;
+    outline: none;
+  }
+</style>
+<link rel="stylesheet" href="ripple.css"/>
+
+<button class="ripple">Button</button>
+
+<script src="ripple.js"></script>
+<script>
+  ripple(document.querySelector('button'));
+</script>
